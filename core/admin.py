@@ -1,3 +1,7 @@
 from django.contrib import admin
+from core.models import Profile, Post, Category
 
-# Register your models here.
+admin.site.register(Profile)
+admin.site.register(Post)
+admin.site.register(Category)
+
